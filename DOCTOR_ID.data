@@ -1,0 +1,36 @@
+**You need to add the IDs from DOCTOR_ID, NURSE_ID, RECEPTIONIST, MLT_ID in STAFF_PROFILE first**
+**you can directly add the data though in the 'data' option beside 'column' in the table file**
+
+--------------------------------------------------------
+--  File created - Thursday-October-06-2022   
+--------------------------------------------------------
+--------------------------------------------------------
+--  DDL for Table DOCTOR
+--------------------------------------------------------
+
+  CREATE TABLE "A337PATE"."DOCTOR" 
+   (	"DOC_ID" NUMBER, 
+	"PASSWORD" VARCHAR2(20 BYTE)
+   ) SEGMENT CREATION IMMEDIATE 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 
+ NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "DBCOURSE" ;
+REM INSERTING into A337PATE.DOCTOR
+SET DEFINE OFF;
+Insert into A337PATE.DOCTOR (DOC_ID,PASSWORD) values (123456789,'Candy.123');
+Insert into A337PATE.DOCTOR (DOC_ID,PASSWORD) values (234567891,'Candy.123');
+--------------------------------------------------------
+--  Constraints for Table DOCTOR
+--------------------------------------------------------
+
+  ALTER TABLE "A337PATE"."DOCTOR" MODIFY ("DOC_ID" NOT NULL ENABLE);
+  ALTER TABLE "A337PATE"."DOCTOR" MODIFY ("PASSWORD" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Ref Constraints for Table DOCTOR
+--------------------------------------------------------
+
+  ALTER TABLE "A337PATE"."DOCTOR" ADD CONSTRAINT "DOCTOR_ID" FOREIGN KEY ("DOC_ID")
+	  REFERENCES "A337PATE"."STAFF_PROFILE" ("STAFF_ID") ENABLE;
