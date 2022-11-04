@@ -1,6 +1,3 @@
-#!/bin/sh
-#export LD_LIBRARY_PATH=/usr/lib/oracle/12.1/client64/lib
-sqlplus64"username/password@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP(Host=oracle.scs.ryerson.c)(Port=1521))(CONNECT_DATA=(SID=orcl)))"<<EOF
 
 CREATE TABLE finance_record(
 	health_card_number	NUMBER PRIMARY KEY NOT NULL,
@@ -96,5 +93,4 @@ CREATE TABLE personal_record(
 	CONSTRAINT PRIMARY KEY(health_card_number)
 );
 
-EXIT;
-EOF
+
