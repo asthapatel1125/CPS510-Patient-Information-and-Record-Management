@@ -65,6 +65,10 @@ CREATE TABLE staff_profile(
 	staff_id			NUMBER PRIMARY KEY NOT NULL
 );
 
+CREATE TABLE patient_profile(
+	health_card_number		NUMBER PRIMARY KEY NOT NULL
+);
+
 CREATE TABLE doctor(
 	doctor_id			NUMBER NOT NULL,
 	CONSTRAINT PRIMARY KEY(doctor_id) REFERENCES staff_profile(staff_id);
