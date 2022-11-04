@@ -1,6 +1,6 @@
 
 CREATE TABLE finance_record(
-	health_card_number	NUMBER PRIMARY KEY NOT NULL,
+	bank_account_number	NUMBER PRIMARY KEY NOT NULL,
 	admission_date		DATE	NOT NULL,
 	discharge_date		DATE	NOT NULL,
 	paymnet_plan		VARCAHR(200),
@@ -24,41 +24,33 @@ CREATE TABLE general_info_record(
 	allergy			VARCHAR(200) DEAFULT NULL,
 	allergy_reaction		VARCHAR(200) DEFAULT NULL,
 	CONSTRAINT PRIMARY KEY (health_card_number) REFERENCES medical_record(health_card_number)			
-
 );
 
 CREATE TABLE laboratory_record(
-	health_card_number	NUMBER NOT NULL,
-	medical_scans		VARCHAR(200) DEFAULT NULL,
-	lab_test			VARCHAR(200) DEFAULT NULL,
-	lab_result			VARCHAR(200) DEFAULT NULL,
-	ordering_doctor		NUMBER NOT NULL,
-	mlt_id			NUMBER NOT NULL,
-	CONSTRAINT	PRIMARY KEY (health_card_number, ordering_doctor, mlt_id)
-		REFERENCES	medical_record(health_card_number), mlt(mlt_id), doctor(doctor_id)
-	
+	health_insurance_number	  NUMBER PRIMARY KEY NOT NULL,
+	medical_scans		  VARCHAR(200) DEFAULT NULL,
+	lab_test			VARCHAR(200) DEFAULT NULL, 
+	lab_result			VARCHAR(200) DEFAULT NULL, 
+	ordering_doctor		  NUMBER NOT NULL,
+	mlt_id			  NUMBER NOT NULL,
 );
 
 CREATE TABLE surgery_record(
-	health_card_number	NUMBER NOT NULL,
-	surgery			VARCHAR(200) NOT NULL,
-	surgeon			NUMBER NOT NULL,
+	health_insurance_number	  NUMBER PRIMARY KEY NOT NULL,
+	surgery			  VARCHAR(200) NOT NULL,
+	surgeon			  NUMBER NOT NULL,
 	nurse				NUMBER NOT NULL,
-	date_of_surgery		DATE	NOT NULL,
+	date_of_surgery		  DATE	NOT NULL,
 	post_surgery_meds		VARCHAR(200) NOT NULL,
-	CONSTRAINT PRIMARY KEY(health_card_number, surgeon, nurse)
-		REFERENCES	medical_record(health_card_number), doctor(doctor_id), nurse(nurse_id)
-	
 );
 
 CREATE TABLE medicine_record(
-	health_card_number	NUMBER NOT NULL,
+	health_insurance_number	  NUMBER NOT NULL,
 	medicine			VARCHAR(200) NOT NULL,
 	start_date			DATE NOT NULL,
-	dosage			NUMBER NOT NULL,
-	reason_for_med		VARCHAR(200) NOT NULL,
-	side_effects		VARCHAR(200) NOT NULL			
-
+	dosage			  NUMBER NOT NULL,
+	reason_for_med		  VARCHAR(200) NOT NULL,
+	side_effects		  VARCHAR(200) NOT NULL			
 );
 
 CREATE TABLE staff_profile(
