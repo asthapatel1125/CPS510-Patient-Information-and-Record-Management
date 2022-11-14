@@ -1,5 +1,3 @@
-
-1
 #!/bin/sh
 MainMenu()
 {
