@@ -1,7 +1,3 @@
-#!/bin/sh
-#export LD_LIBRARY_PATH=/usr/lib/oracle/12.1/client64/lib
-sqlplus64 "username/password@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(Host=oracle.scs.ryerson.ca)(Port=1521))(CONNECT_DATA=(SID=orcl)))" <<EOF
-
 CREATE TABLE mlt(
 	mlt_id		    number primary key not null,
 	password		varchar(200) not null);
@@ -75,6 +71,3 @@ CREATE TABLE finance_record(
 	hospital_bill	number not null,
 	billing_address	number not null,
     foreign key(health_id) references patient_info_record(health_id));
-
-exit;
-EOF
