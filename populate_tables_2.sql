@@ -45,4 +45,6 @@ INSERT INTO surgery_record VALUES (0008, 0002,0004, 0002, 'Laparoscopy', DATE'20
 INSERT INTO surgery_record VALUES (0009, 0006,0001, 0003, 'Appendectomy', DATE'2021/12/31', 'NSAIDs');
 INSERT INTO surgery_record VALUES (0010, 0004,0002, 0004, 'Pacemaker', DATE'2001/02/13', 'Aspirin');
 
-INSERT INTO finance_record VALUES (0001, 0001, );
+INSERT INTO finance_record VALUES (0001, 0001, DATE '2022/02/12',DATE '2023/12/12','Insurance', 'Manulife', 'paid', 220.0, 300.0, '43 Dundas St., Toronto. M2M 3B3');
+
+INSERT INTO medicine_record VALUES ();
