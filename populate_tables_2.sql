@@ -47,4 +47,4 @@ INSERT INTO surgery_record VALUES (0010, 0004,0002, 0004, 'Pacemaker', DATE'2001
 
 INSERT INTO finance_record VALUES (0001, 0001, DATE '2022/02/12',DATE '2023/12/12','Insurance', 'Manulife', 'paid', 220.0, 300.0, '43 Dundas St., Toronto. M2M 3B3');
 
-INSERT INTO medicine_record VALUES ();
+INSERT INTO medicine_record VALUES (0001,0001, 'Aspririn', DATE '2002/01/13','Aneurysm repair surgery', 'headache');
