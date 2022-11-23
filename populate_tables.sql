@@ -44,3 +44,5 @@ INSERT INTO surgery_record VALUES (0007, 0001,0002, 0001, 'Carotid surgery', to_
 INSERT INTO surgery_record VALUES (0008, 0002,0004, 0002, 'Laparoscopy', to_date('2020/09/14', 'YYYY/MM/DD'), 'Tylenol');
 INSERT INTO surgery_record VALUES (0009, 0006,0001, 0003, 'Appendectomy', to_date('2021/12/31', 'YYYY/MM/DD'), 'NSAIDs');
 INSERT INTO surgery_record VALUES (0010, 0004,0002, 0004, 'Pacemaker', to_date('2001/02/13', 'YYYY/MM/DD'), 'Aspirin');
+
+INSERT INTO finance_record VALUES (0001, 0001,);
