@@ -63,8 +63,8 @@ INSERT INTO medicine_record VALUES (0003,0002, 'Advil', to_date('2021/06/27', 'Y
 INSERT INTO medicine_record VALUES (0004,0005, 'Tylenol', to_date('2015/03/23', 'YYYY/MM/DD'),'Appendectomy surgery', 'headache');
 INSERT INTO medicine_record VALUES (0005,0003, 'Ibuprofen', to_date('2018/05/12', 'YYYY/MM/DD'),'Heart bypass surgery', 'wheezing');
 INSERT INTO medicine_record VALUES (0006,0006, 'Opioids', to_date('2005/12/30', 'YYYY/MM/DD'),'Cadioversion surgery', 'low blood pressure');
-INSERT INTO medicine_record VALUES (0001,0001, 'NDAIDs', to_date('2016/03/11', 'YYYY/MM/DD'),'Carotid surgery', 'low blood pressure');
-INSERT INTO medicine_record VALUES (0002,0002, 'Tylenol', to_date('2020/09/14', 'YYYY/MM/DD'),'Laparoscopy surgery', 'wheezing');
-INSERT INTO medicine_record VALUES (0003,0006, 'NSAIDs', to_date('2021/12/31', 'YYYY/MM/DD'),'Appendectomy surgery', 'headache');
-INSERT INTO medicine_record VALUES (0006,0001, 'Aspririn', to_date('2001/02/13', 'YYYY/MM/DD'),'Pacemaker surgery', 'low blood pressure');
+INSERT INTO medicine_record VALUES (0007,0001, 'NDAIDs', to_date('2016/03/11', 'YYYY/MM/DD'),'Carotid surgery', 'low blood pressure');
+INSERT INTO medicine_record VALUES (0008,0002, 'Tylenol', to_date('2020/09/14', 'YYYY/MM/DD'),'Laparoscopy surgery', 'wheezing');
+INSERT INTO medicine_record VALUES (0009,0006, 'NSAIDs', to_date('2021/12/31', 'YYYY/MM/DD'),'Appendectomy surgery', 'headache');
+INSERT INTO medicine_record VALUES (0010,0001, 'Aspririn', to_date('2001/02/13', 'YYYY/MM/DD'),'Pacemaker surgery', 'low blood pressure');
 
