@@ -65,6 +65,7 @@ CREATE TABLE finance_record(
 	health_id		number not null,
 	admission_date	date not null,
 	discharge_date	date not null,
+	status_charge	varchar(200),
 	payment_plan	varchar(200),
 	private_insurance varchar(200),
 	accessed_amount	number,
