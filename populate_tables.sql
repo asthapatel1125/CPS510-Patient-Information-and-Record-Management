@@ -45,4 +45,26 @@ INSERT INTO surgery_record VALUES (0008, 0002,0004, 0002, 'Laparoscopy', to_date
 INSERT INTO surgery_record VALUES (0009, 0006,0001, 0003, 'Appendectomy', to_date('2021/12/31', 'YYYY/MM/DD'), 'NSAIDs');
 INSERT INTO surgery_record VALUES (0010, 0004,0002, 0004, 'Pacemaker', to_date('2001/02/13', 'YYYY/MM/DD'), 'Aspirin');
 
-INSERT INTO finance_record VALUES (0001, 0001,);
+INSERT INTO finance_record VALUES (0001, 0001, DATE '2002/01/13',to_date('2002/12/20','YYYY/MM/DD'),,'Insurance', null, 'paid', 220.0, 300.0, '43 Dundas St., Toronto. M2M 3B3');
+INSERT INTO finance_record VALUES (0002, 0002, DATE '2021/06/27',to_date('2021/08/12','YYYY/MM/DD'),'OHIP', null, 'pending', 1000.0, 3000.0, '23 Younge St., Toronto. R3N 2P6');
+INSERT INTO finance_record VALUES (0003, 0003, DATE '2020/12/20',to_date('2021/02/04','YYYY/MM/DD'),'OHIP', 'Manulife', 'pending', 20000.0, 20000.0, '40 Silverstone Rd., Brampton. 3L3 4P2');
+INSERT INTO finance_record VALUES (0004, 0004, DATE '2001/02/13',to_date('2001/05/13','YYYY/MM/DD'),null, 'Manulife', 'paid', 500.0, 1200.0,  '30 Itaewon Dr., Calgary. E4G 6T8');
+INSERT INTO finance_record VALUES (0005, 0005, DATE '2015/03/23',to_date('2019/03/07','YYYY/MM/DD'),null, 'Manulife', 'pending', 300000.0, 300000.0, '90 Billionaire Row, New York. 4L3 9S2');
+INSERT INTO finance_record VALUES (0006, 0006, DATE '2005/12/30',to_date('2006/09/10','YYYY/MM/DD'),null, 'Manulife', 'paid', 2000.0, 3300.0, '16 Callabasses Dr., California. 4L3 9S2');
+INSERT INTO finance_record VALUES (0007, 0001, DATE '2016/03/11',to_date('2017/03/11','YYYY/MM/DD'),'OHIP', null, 'pending', 2000.0, 5000.0, '43 Dundas St., Toronto. M2M 3B3');
+INSERT INTO finance_record VALUES (0008, 0002, DATE '2020/09/14',to_date('2020/12/13','YYYY/MM/DD'),'Insurance', null, 'paid', 200.0, 545.0, '23 Younge St., Toronto. R3N 2P6');
+INSERT INTO finance_record VALUES (0009, 0006, DATE '2021/12/31',to_date('2022/05/12','YYYY/MM/DD'),'Insurance', 'Manulife', 'paid', 23400.0, 30000.0,'16 Callabasses Dr., California. 4L3 9S2');
+INSERT INTO finance_record VALUES (0010, 0003, DATE '2018/05/12',DATE '2018/08/23',null, 'Manulife', 'pending', 220.0, 300.0,  '40 Silverstone Rd., Brampton. 3L3 4P2');
+
+
+INSERT INTO medicine_record VALUES (0001,0003, 'Ibuprofen', to_date('2020/12/20', 'YYYY/MM/DD'),'Laparoscopy surgery', 'headache');
+INSERT INTO medicine_record VALUES (0002,0001, 'Aspririn', to_date('2002/01/13', 'YYYY/MM/DD'),'Aneurysm repair surgery', 'headache');
+INSERT INTO medicine_record VALUES (0003,0002, 'Advil', to_date('2021/06/27', 'YYYY/MM/DD'),'Heart valve repair surgery', 'rash');
+INSERT INTO medicine_record VALUES (0004,0005, 'Tylenol', to_date('2015/03/23', 'YYYY/MM/DD'),'Appendectomy surgery', 'headache');
+INSERT INTO medicine_record VALUES (0005,0003, 'Ibuprofen', to_date('2018/05/12', 'YYYY/MM/DD'),'Heart bypass surgery', 'wheezing');
+INSERT INTO medicine_record VALUES (0006,0006, 'Opioids', to_date('2005/12/30', 'YYYY/MM/DD'),'Cadioversion surgery', 'low blood pressure');
+INSERT INTO medicine_record VALUES (0001,0001, 'NDAIDs', to_date('2016/03/11', 'YYYY/MM/DD'),'Carotid surgery', 'low blood pressure');
+INSERT INTO medicine_record VALUES (0002,0002, 'Tylenol', to_date('2020/09/14', 'YYYY/MM/DD'),'Laparoscopy surgery', 'wheezing');
+INSERT INTO medicine_record VALUES (0003,0006, 'NSAIDs', to_date('2021/12/31', 'YYYY/MM/DD'),'Appendectomy surgery', 'headache');
+INSERT INTO medicine_record VALUES (0006,0001, 'Aspririn', to_date('2001/02/13', 'YYYY/MM/DD'),'Pacemaker surgery', 'low blood pressure');
+
