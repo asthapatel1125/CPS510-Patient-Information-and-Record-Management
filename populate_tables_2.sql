@@ -1,14 +1,14 @@
-INSERT INTO mlt VALUES (0001, 'minions');
-INSERT INTO mlt VALUES (0002, 'minions');
-INSERT INTO mlt VALUES (0003, 'minions');
-INSERT INTO mlt VALUES (0004, 'minions');
-INSERT INTO mlt VALUES (0005, 'minions');
+INSERT INTO mlt VALUES (01, 'minions');
+INSERT INTO mlt VALUES (02, 'minions');
+INSERT INTO mlt VALUES (03, 'minions');
+INSERT INTO mlt VALUES (04, 'minions');
+INSERT INTO mlt VALUES (05, 'minions');
 
-INSERT INTO doctor VALUES (0001, 'minions');
-INSERT INTO doctor VALUES (0002, 'minions');
-INSERT INTO doctor VALUES (0003, 'minions');
-INSERT INTO doctor VALUES (0004, 'minions');
-INSERT INTO doctor VALUES (0005, 'minions');
+INSERT INTO doctor VALUES (01, 'minions');
+INSERT INTO doctor VALUES (02, 'minions');
+INSERT INTO doctor VALUES (03, 'minions');
+INSERT INTO doctor VALUES (04, 'minions');
+INSERT INTO doctor VALUES (05, 'minions');
 
 INSERT INTO nurse VALUES (0001, 'minions');
 INSERT INTO nurse VALUES (0002, 'minions');
@@ -45,6 +45,25 @@ INSERT INTO surgery_record VALUES (0008, 0002,0004, 0002, 'Laparoscopy', DATE'20
 INSERT INTO surgery_record VALUES (0009, 0006,0001, 0003, 'Appendectomy', DATE'2021/12/31', 'NSAIDs');
 INSERT INTO surgery_record VALUES (0010, 0004,0002, 0004, 'Pacemaker', DATE'2001/02/13', 'Aspirin');
 
-INSERT INTO finance_record VALUES (0001, 0001, DATE '2022/02/12',DATE '2023/12/12','Insurance', 'Manulife', 'paid', 220.0, 300.0, '43 Dundas St., Toronto. M2M 3B3');
+INSERT INTO finance_record VALUES (0001, 0001, DATE '2002/01/13',DATE '2002/12/20','Insurance', null, 'paid', 220.0, 300.0, '43 Dundas St., Toronto. M2M 3B3');
+INSERT INTO finance_record VALUES (0002, 0002, DATE '2021/06/27',DATE '2021/08/12','OHIP', null, 'pending', 1000.0, 3000.0, '23 Younge St., Toronto. R3N 2P6');
+INSERT INTO finance_record VALUES (0003, 0003, DATE '2020/12/20',DATE '2021/02/04','OHIP', 'Manulife', 'pending', 20000.0, 20000.0, '40 Silverstone Rd., Brampton. 3L3 4P2');
+INSERT INTO finance_record VALUES (0004, 0004, DATE '2001/02/13',DATE '2001/05/13',null, 'Manulife', 'paid', 500.0, 1200.0,  '30 Itaewon Dr., Calgary. E4G 6T8');
+INSERT INTO finance_record VALUES (0005, 0005, DATE '2015/03/23',DATE '2019/03/07',null, 'Manulife', 'pending', 300000.0, 300000.0, '90 Billionaire Row, New York. 4L3 9S2');
+INSERT INTO finance_record VALUES (0006, 0006, DATE '2005/12/30',DATE '2006/09/10',null, 'Manulife', 'paid', 2000.0, 3300.0, '16 Callabasses Dr., California. 4L3 9S2');
+INSERT INTO finance_record VALUES (0007, 0001, DATE '2016/03/11',DATE '2017/03/11','OHIP', null, 'pending', 2000.0, 5000.0, '43 Dundas St., Toronto. M2M 3B3');
+INSERT INTO finance_record VALUES (0008, 0002, DATE '2020/09/14',DATE '2020/12/13','Insurance', null, 'paid', 200.0, 545.0, '23 Younge St., Toronto. R3N 2P6');
+INSERT INTO finance_record VALUES (0009, 0006, DATE '2021/12/31',DATE '2022/05/12','Insurance', 'Manulife', 'paid', 23400.0, 30000.0,'16 Callabasses Dr., California. 4L3 9S2');
+INSERT INTO finance_record VALUES (0010, 0003, DATE '2018/05/12',DATE '2018/08/23',null, 'Manulife', 'pending', 220.0, 300.0,  '40 Silverstone Rd., Brampton. 3L3 4P2');
 
-INSERT INTO medicine_record VALUES (0001,0001, 'Aspririn', DATE '2002/01/13','Aneurysm repair surgery', 'headache');
+
+INSERT INTO medicine_record VALUES (0001,0003, 'Ibuprofen', DATE '2020/12/20','Laparoscopy surgery', 'headache');
+INSERT INTO medicine_record VALUES (0002,0001, 'Aspririn', DATE '2002/01/13','Aneurysm repair surgery', 'headache');
+INSERT INTO medicine_record VALUES (0003,0002, 'Advil', DATE'2021/06/27','Heart valve repair surgery', 'rash');
+INSERT INTO medicine_record VALUES (0004,0005, 'Tylenol', DATE'2015/03/23','Appendectomy surgery', 'headache');
+INSERT INTO medicine_record VALUES (0005,0003, 'Ibuprofen', DATE'2018/05/12','Heart bypass surgery', 'wheezing');
+INSERT INTO medicine_record VALUES (0006,0006, 'Opioids', DATE '2005/12/30','Cadioversion surgery', 'low blood pressure');
+INSERT INTO medicine_record VALUES (0001,0001, 'NDAIDs', DATE '2016/03/11','Carotid surgery', 'low blood pressure');
+INSERT INTO medicine_record VALUES (0002,0002, 'Tylenol', DATE '2020/09/14','Laparoscopy surgery', 'wheezing');
+INSERT INTO medicine_record VALUES (0003,0006, 'NSAIDs', DATE '2021/12/31','Appendectomy surgery', 'headache');
+INSERT INTO medicine_record VALUES (0006,0001, 'Aspririn', DATE '2001/02/13','Pacemaker surgery', 'low blood pressure');
