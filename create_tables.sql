@@ -70,5 +70,5 @@ CREATE TABLE finance_record(
 	status_charge       varchar(200),
 	accessed_amount	number,
 	hospital_bill	number not null,
-	billing_address	number not null,
+	billing_address	varchar(300) not null,
     foreign key(health_id) references patient_info_record(health_id));
