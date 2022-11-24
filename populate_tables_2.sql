@@ -1,14 +1,14 @@
-INSERT INTO mlt VALUES (01, 'minions');
-INSERT INTO mlt VALUES (02, 'minions');
-INSERT INTO mlt VALUES (03, 'minions');
-INSERT INTO mlt VALUES (04, 'minions');
-INSERT INTO mlt VALUES (05, 'minions');
+INSERT INTO mlt VALUES (0001, 'minions');
+INSERT INTO mlt VALUES (0002, 'minions');
+INSERT INTO mlt VALUES (0003, 'minions');
+INSERT INTO mlt VALUES (0004, 'minions');
+INSERT INTO mlt VALUES (0005, 'minions');
 
-INSERT INTO doctor VALUES (01, 'minions');
-INSERT INTO doctor VALUES (02, 'minions');
-INSERT INTO doctor VALUES (03, 'minions');
-INSERT INTO doctor VALUES (04, 'minions');
-INSERT INTO doctor VALUES (05, 'minions');
+INSERT INTO doctor VALUES (0001, 'minions');
+INSERT INTO doctor VALUES (0002, 'minions');
+INSERT INTO doctor VALUES (0003, 'minions');
+INSERT INTO doctor VALUES (0004, 'minions');
+INSERT INTO doctor VALUES (0005, 'minions');
 
 INSERT INTO nurse VALUES (0001, 'minions');
 INSERT INTO nurse VALUES (0002, 'minions');
