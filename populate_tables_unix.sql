@@ -72,5 +72,5 @@ INSERT INTO medicine_record VALUES (0012,0002, 'Vitamin B12', to_date('2011/12/1
 INSERT INTO medicine_record VALUES (0013,0002, 'Biotin', to_date('2005/03/09', 'YYYY/MM/DD'), 'hair growth', 'trouble sleeping');
 INSERT INTO medicine_record VALUES (0014,0004, 'Iron Pills', to_date('2000/05/25', 'YYYY/MM/DD'), 'Low iron', null);
 INSERT INTO medicine_record VALUES (0015,0006, 'Vitamin D3', to_date('1999/06/14', 'YYYY/MM/DD'), 'Low vitamin D3', null);
-INSERT INTO medicine_record VALUES (0016,0003, 'Vitamin D6', to_date('2022/12/02', 'YYYY/MM/DD'), 'Low vitmain d6', null);
+INSERT INTO medicine_record VALUES (0016,0003, 'Vitamin D6', to_date('2022/12/02', 'YYYY/MM/DD'), 'Low vitamin D6', null);
 INSERT INTO medicine_record VALUES (0017,0006, 'Iron Pills', to_date('1989/05/05', 'YYYY/MM/DD'), 'Low iron', null);
