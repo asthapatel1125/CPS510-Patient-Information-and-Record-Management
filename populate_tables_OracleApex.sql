@@ -59,9 +59,9 @@ INSERT INTO finance_record VALUES (0010, 0003, DATE '2018/05/12',DATE '2018/08/2
 
 INSERT INTO medicine_record VALUES (0001,0003, 'Ibuprofen',2, DATE '2020/12/20','Laparoscopy surgery', 'headache');
 INSERT INTO medicine_record VALUES (0002,0001, 'Aspririn',2, DATE '2002/01/13','Aneurysm repair surgery', 'headache');
-INSERT INTO medicine_record VALUES (0003,0002, 'Advil',1, DATE'2021/06/27','Heart valve repair surgery', 'rash');
-INSERT INTO medicine_record VALUES (0004,0005, 'Tylenol',1, DATE'2015/03/23','Appendectomy surgery', 'headache');
-INSERT INTO medicine_record VALUES (0005,0003, 'Ibuprofen',1 DATE'2018/05/12','Heart bypass surgery', 'wheezing');
+INSERT INTO medicine_record VALUES (0003,0002, 'Advil',1, DATE '2021/06/27','Heart valve repair surgery', 'rash');
+INSERT INTO medicine_record VALUES (0004,0005, 'Tylenol',1, DATE '2015/03/23','Appendectomy surgery', 'headache');
+INSERT INTO medicine_record VALUES (0005,0003, 'Ibuprofen',1, DATE '2018/05/12','Heart bypass surgery', 'wheezing');
 INSERT INTO medicine_record VALUES (0006,0006, 'Opioids',2, DATE '2005/12/30','Cadioversion surgery', 'low blood pressure');
 INSERT INTO medicine_record VALUES (0007,0001, 'NDAIDs',3, DATE '2016/03/11','Carotid surgery', 'low blood pressure');
 INSERT INTO medicine_record VALUES (0008,0002, 'Tylenol',2, DATE '2020/09/14','Laparoscopy surgery', 'wheezing');
