@@ -67,3 +67,10 @@ INSERT INTO medicine_record VALUES (0007,0001, 'NDAIDs', DATE '2016/03/11','Caro
 INSERT INTO medicine_record VALUES (0008,0002, 'Tylenol', DATE '2020/09/14','Laparoscopy surgery', 'wheezing');
 INSERT INTO medicine_record VALUES (0009,0006, 'NSAIDs', DATE '2021/12/31','Appendectomy surgery', 'headache');
 INSERT INTO medicine_record VALUES (0010,0001, 'Aspririn', DATE '2001/02/13','Pacemaker surgery', 'low blood pressure');
+INSERT INTO medicine_record VALUES (0011,001, 'Iron Pills', DATE '2022-12-02', 'Low iron', null);
+INSERT INTO medicine_record VALUES (0012,002, 'Vitamin B12', DATE'2011-12-12', 'Low B12', 'coughing');
+INSERT INTO medicine_record VALUES (0013,002, 'Biotin', DATE '2005-03-09', 'hair growth', 'trouble sleeping');
+INSERT INTO medicine_record VALUES (0014,004, 'Iron Pills', DATE '2000-05-25', 'Low iron', null);
+INSERT INTO medicine_record VALUES (0015,006, 'Vitamin D3', DATE '1999-06-14', 'Low vitamin D3', null);
+INSERT INTO medicine_record VALUES (0016,003, 'Vitamin D6', DATE '2022-12-02', 'Low vitmain d6', null);
+INSERT INTO medicine_record VALUES (0017,006, 'Iron Pills', DATE'1989-05-05', 'Low iron', null);
