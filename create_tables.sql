@@ -54,6 +54,7 @@ CREATE TABLE medicine_record(
 	medicine_id 	number primary key not null,
 	health_id		number not null,
 	medicine		varchar(300) not null,
+	dosage			number not null,
 	start_date		date not null,
 	reason_for_med	varchar(300) not null,
 	side_effects	varchar(400),
