@@ -27,7 +27,9 @@ SELECT health_id, status_charge, accessed_amount
 FROM finance_record
 WHERE status_charge = 'pending';
 
-/*Patient Record QUERY: If you want to keep track of patients over/under certain age*/
-/*SELECT health_id, first_name, last_name, age
-FROM patient_info_record
-WHERE age > 30;*/
+/*Medicine Record QUERY: If you want to track dosage of a specific medicine
+being handed out*/
+SELECT health_id, dosage, medicine
+FROM medicine_record
+WHERE medicine = 'Tylenol'
+ORDER BY health_id;
