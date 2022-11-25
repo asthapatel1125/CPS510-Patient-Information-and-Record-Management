@@ -57,18 +57,18 @@ INSERT INTO finance_record VALUES (0009, 0006, DATE '2021/12/31',DATE '2022/05/1
 INSERT INTO finance_record VALUES (0010, 0003, DATE '2018/05/12',DATE '2018/08/23',null, 'Manulife', 'pending', 220.0, 300.0,  '40 Silverstone Rd., Brampton. 3L3 4P2');
 
 
-INSERT INTO medicine_record VALUES (0001,0003, 'Ibuprofen',2, DATE '2020/12/20','Laparoscopy surgery', 'headache');
-INSERT INTO medicine_record VALUES (0002,0001, 'Aspririn',2, DATE '2002/01/13','Aneurysm repair surgery', 'headache');
-INSERT INTO medicine_record VALUES (0003,0002, 'Advil',1, DATE '2021/06/27','Heart valve repair surgery', 'rash');
-INSERT INTO medicine_record VALUES (0004,0005, 'Tylenol',1, DATE '2015/03/23','Appendectomy surgery', 'headache');
-INSERT INTO medicine_record VALUES (0005,0003, 'Ibuprofen',1, DATE '2018/05/12','Heart bypass surgery', 'wheezing');
-INSERT INTO medicine_record VALUES (0006,0006, 'Opioids',2, DATE '2005/12/30','Cadioversion surgery', 'low blood pressure');
-INSERT INTO medicine_record VALUES (0007,0001, 'NDAIDs',3, DATE '2016/03/11','Carotid surgery', 'low blood pressure');
-INSERT INTO medicine_record VALUES (0008,0002, 'Tylenol',2, DATE '2020/09/14','Laparoscopy surgery', 'wheezing');
-INSERT INTO medicine_record VALUES (0009,0006, 'NSAIDs',1, DATE '2021/12/31','Appendectomy surgery', 'headache');
-INSERT INTO medicine_record VALUES (0010,0001, 'Aspririn',2, DATE '2001/02/13','Pacemaker surgery', 'low blood pressure');
+INSERT INTO medicine_record VALUES (0001,0003, 'Ibuprofen',2, DATE '2020-12-20','Laparoscopy surgery', 'headache');
+INSERT INTO medicine_record VALUES (0002,0001, 'Aspririn',2, DATE '2002-01-13','Aneurysm repair surgery', 'headache');
+INSERT INTO medicine_record VALUES (0003,0002, 'Advil',1, DATE '2021-06-27','Heart valve repair surgery', 'rash');
+INSERT INTO medicine_record VALUES (0004,0005, 'Tylenol',1, DATE '2015-03-23','Appendectomy surgery', 'headache');
+INSERT INTO medicine_record VALUES (0005,0003, 'Ibuprofen',1, DATE '2018-05-12','Heart bypass surgery', 'wheezing');
+INSERT INTO medicine_record VALUES (0006,0006, 'Opioids',2, DATE '2005-12-30','Cadioversion surgery', 'low blood pressure');
+INSERT INTO medicine_record VALUES (0007,0001, 'NDAIDs',3, DATE '2016-03-11','Carotid surgery', 'low blood pressure');
+INSERT INTO medicine_record VALUES (0008,0002, 'Tylenol',2, DATE '2020-09-14','Laparoscopy surgery', 'wheezing');
+INSERT INTO medicine_record VALUES (0009,0006, 'NSAIDs',1, DATE '2021-12-31','Appendectomy surgery', 'headache');
+INSERT INTO medicine_record VALUES (0010,0001, 'Aspririn',2, DATE '2001-02-13','Pacemaker surgery', 'low blood pressure');
 INSERT INTO medicine_record VALUES (0011,0001, 'Iron Pills',3, DATE '2022-12-02', 'Low iron', null);
-INSERT INTO medicine_record VALUES (0012,0002, 'Vitamin B12',1, DATE'2011-12-12', 'Low B12', 'coughing');
+INSERT INTO medicine_record VALUES (0012,0002, 'Vitamin B12',1, DATE '2011-12-12', 'Low B12', 'coughing');
 INSERT INTO medicine_record VALUES (0013,0002, 'Biotin',2, DATE '2005-03-09', 'hair growth', 'trouble sleeping');
 INSERT INTO medicine_record VALUES (0014,0004, 'Iron Pills',2, DATE '2000-05-25', 'Low iron', null);
 INSERT INTO medicine_record VALUES (0015,0006, 'Vitamin D3',1, DATE '1999-06-14', 'Low vitamin D3', null);
