@@ -56,7 +56,7 @@ CREATE TABLE medicine_record(
 	medicine		varchar(300) not null,
 	start_date		date not null,
 	reason_for_med	varchar(300) not null,
-	side_effects	varchar(400) not null,
+	side_effects	varchar(400),
     foreign key(health_id) references patient_info_record(health_id)
     );
 
