@@ -28,6 +28,6 @@ FROM finance_record
 WHERE status_charge = 'pending';
 
 /*Patient Record QUERY: If you want to keep track of patients over/under certain age*/
-SELECT health_id, first_name, last_name, age
+/*SELECT health_id, first_name, last_name, age
 FROM patient_info_record
-WHERE age > 30;
+WHERE age > 30;*/
