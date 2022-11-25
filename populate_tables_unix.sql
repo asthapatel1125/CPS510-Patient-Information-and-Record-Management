@@ -67,3 +67,10 @@ INSERT INTO medicine_record VALUES (0007,0001, 'NDAIDs', to_date('2016/03/11', '
 INSERT INTO medicine_record VALUES (0008,0002, 'Tylenol', to_date('2020/09/14', 'YYYY/MM/DD'),'Laparoscopy surgery', 'wheezing');
 INSERT INTO medicine_record VALUES (0009,0006, 'NSAIDs', to_date('2021/12/31', 'YYYY/MM/DD'),'Appendectomy surgery', 'headache');
 INSERT INTO medicine_record VALUES (0010,0001, 'Aspririn', to_date('2001/02/13', 'YYYY/MM/DD'),'Pacemaker surgery', 'low blood pressure');
+INSERT INTO medicine_record VALUES (0011,001, 'Iron Pills', to_date('2022/12/02', 'YYYY/MM/DD'), 'Low iron', null);
+INSERT INTO medicine_record VALUES (0011,001, 'Vitamin B12', to_date('2011/12/12', 'YYYY/MM/DD'), 'Low B12', 'coughing');
+INSERT INTO medicine_record VALUES (0011,001, 'Boitin', to_date('2005/03/09', 'YYYY/MM/DD'), 'hair growth', 'trouble sleeping');
+INSERT INTO medicine_record VALUES (0011,001, 'Iron Pills', to_date('2000/05/25', 'YYYY/MM/DD'), 'Low iron', null);
+INSERT INTO medicine_record VALUES (0011,001, 'Vitamin D3', to_date('1999/06/14', 'YYYY/MM/DD'), 'Low vitamin D3', null);
+INSERT INTO medicine_record VALUES (0011,001, 'Vitamin D6', to_date('2022/12/02', 'YYYY/MM/DD'), 'Low vitmain d6', null);
+INSERT INTO medicine_record VALUES (0011,001, 'Iron Pills', to_date('1989/05/05', 'YYYY/MM/DD'), 'Low iron', null);
