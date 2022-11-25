@@ -33,3 +33,8 @@ SELECT health_id, dosage, medicine
 FROM medicine_record
 WHERE medicine = 'Tylenol'
 ORDER BY health_id;
+
+/*Medicine Record QUERY: If you want to track the duration of how long person's 
+taking medicine and weather to increase/decrese their dosage of a specific medicine*/
+SELECT DISTINCT health_id, medicine, dosage, start_date
+FROM medicine_record
